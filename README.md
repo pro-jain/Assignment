@@ -77,13 +77,13 @@ Implemented a basic HTTP Proxy Server using Node.js and studied different load b
 
 ---
 
-# Implementation
+## Implementation
 
-## Distributed Camera Streaming System using Proxy Server and Redis
+### Distributed Camera Streaming System using Proxy Server and Redis
 
 Designed and implemented a distributed camera streaming system consisting of multiple camera sources, multiple frontend clients, multiple backend processing servers, a proxy server, and Redis for maintaining backend server capacity information.
 
-### Workflow
+#### Workflow
 
 1. Multiple cameras continuously capture video streams.
 2. Frontend clients send requests to the Proxy Server for a camera feed.
@@ -94,7 +94,7 @@ Designed and implemented a distributed camera streaming system consisting of mul
 7. The Proxy Server forwards the processed stream to the requesting frontend client.
 8. Redis is continuously updated with backend server capacity information, enabling efficient load balancing for future requests.
 
-### Implementation Repo: https://github.com/abhaynextflyt/reccesys001/tree/bodhini/redis-camera-streams
+#### Implementation Repo: https://github.com/abhaynextflyt/reccesys001/tree/bodhini/redis-camera-streams
 
 ---
 
